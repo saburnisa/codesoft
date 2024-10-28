@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RideReserve</title>
+    <link rel="stylesheet" href="Lpage.css">
+</head>
+<body>
+    <div id="one">
+        <h1 id="tit">RideReserve</h1>
+    </div>
+    <nav class="nav-menu">
+        <a href="#">TicketBooking</a>
+        <a href="#offers">Offers</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <button onclick="redirectToLogin()">Login</button>
+    </nav>
+
+    <div class="div1">
+        <div class="div2">
+            <center>
+                <label>
+                    From:
+                    <input type="text" id="origin" />
+                </label>
+                <label>
+                    To:<br>
+                    <input type="text" id="destination" />
+                </label>
+                <label>
+                    Date of Journey:<br>
+                    <input type="date" id="date" class="input1" style="width:200px; height:30px;" />
+                </label>
+            </center>
+
+            <center>
+                <button onclick="searchBuses()">Search Buses</button>
+            </center>
+        </div>
+    </div>
+    <div id="offers" class="offers-section">
+        <h2>Current Offers</h2>
+        <div class="offers-container">
+            <div class="offer-card">Get 20% off on your first booking!</div>
+            <div class="offer-card">Refer a friend and earn travel credits.</div>
+            <div class="offer-card">Exclusive weekend discounts on select routes.</div>
+            <div class="offer-card">Flat ₹100 cashback on bookings above ₹500.</div>
+        </div>
+    </div>
+    <div id="about" class="about-section">
+        <h2>About RideReserve</h2>
+        <p>
+          RideReserve is your go-to platform for convenient bus travel bookings. Whether you're planning a weekend getaway or a long-distance journey, we've got you covered!
+          Our platform is designed to offer a seamless and hassle-free experience in reserving bus tickets.
+        </p>
+        <p>With a wide network of routes and bus operators, you can compare options and choose what suits you best.</p>
+        <p>We prioritize comfort, affordability, and customer satisfaction, making your travel experience memorable.</p>
+    </div>
+
+    <div id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Email: support@ridereserve.com</p>
+        <p>Phone: 04 9787 6850</p>
+
+    </div>
+</body>
+</html>

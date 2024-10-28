@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle, #1f1f1f, #121212);
+    font-family: 'Verdana', sans-serif;
+    color: #fff;
+}
+
+.container {
+    background: #333;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
+    width: 420px;
+}
+
+.calc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dis1 {
+    margin-bottom: 20px;
+}
+
+.dis {
+    width: 100%;
+    height: 70px;
+    background-color: #222;
+    border-radius: 12px;
+    color: #00ff95;
+    font-size: 2.2em;
+    text-align: right;
+    padding: 15px;
+    border: none;
+    box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #444;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin: 5px;
+    width: 70px;
+}
+
+button:hover {
+    background-color: #555;
+    transform: translateY(-3px);
+}
+
+button:active {
+    background-color: #666;
+}
+
+#b1 {
+    background-color: #e74c3c;
+}
+
+#b1:hover {
+    background-color: #c0392b;
+}
+
+.btneq {
+    background-color: #27ae60;
+    width: 150px;
+}
+
+.btneq:hover {
+    background-color: #2ecc71;
+}
+
+.btneq:active {
+    background-color: #1e954a;
+}
